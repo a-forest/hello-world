@@ -130,5 +130,5 @@ class TfidfToSolr:
 
 if __name__ == '__main__':
     ###TfidfToSolr('url to the solrbook', number of n-gram, volume of paragraph read from corpus)
-    tts = TfidfToSolr('http://localhost:8983/solr/solrbook', 4, -1)
+    tts = TfidfToSolr('http://localhost:8983/solr/solrbook', 3, 100)
     tts.register_to_solrbook()
